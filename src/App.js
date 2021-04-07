@@ -1,25 +1,61 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import Elephant from './components/elephant';
+import Horse from './components/horse'
+import Clouds from './components/clouds'
+import Kaboo from './components/kaboo'
+import Babu from './components/babu'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+
+      <div className="App">
+        <h3> Animations with React</h3>
+      </div>
+      <div className="clouds">
+        <Clouds />
+        <Clouds />
+        <Clouds />
+        <Clouds />
+        <Clouds />
+        <Clouds />
+        <Clouds />
+
+      </div>
+      <div className="kaboo">
+        <Kaboo />
+        <Kaboo />
+        <Kaboo />
+        <Kaboo />
+        <Kaboo />
+        <Kaboo />
+        <Kaboo />
+
+      </div>
+
+      
+      <div className="horse">
+
+        <Babu />
+        <Horse />
+      </div>
+
+      <div className="elephant">
+        <Elephant />
+        
+      </div>
+    
+      <div>
+        </div>
+
+
+
     </div>
-  );
+    
+       
+  
+  )
 }
 
 export default App;

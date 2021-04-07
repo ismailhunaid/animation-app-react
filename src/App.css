@@ -1,38 +1,33 @@
+body{
+  background-image: url('../src/assets/jungle.jpg'); 
+  background-repeat: no-repeat; 
+  background-size:3000px;
+  background-position:center 
+}
+
 .App {
   text-align: center;
 }
+.elephant{
+  margin-top:0px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.horse{
+  margin-top: 110px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: flex-start
 }
 
-.App-link {
-  color: #61dafb;
+.clouds{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.kaboo{
+  margin-top:40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
