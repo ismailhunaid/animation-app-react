@@ -11,6 +11,7 @@ const App = () => {
     <div className="main">
 
       <div className="App">
+        <h1> Animations</h1>
         <h3> Animations with React</h3>
       </div>
       <div className="clouds">
